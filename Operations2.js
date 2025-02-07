@@ -8,10 +8,13 @@ let val = myvalue (5,10,15)
 let bool  = function(a)
 {
     let jit = Boolean
-    if (a > 10){
-jit = true
-    }else{
-jit = false
+    if (a > 10)
+    {
+        jit = true
+    }
+    else
+    {
+        jit = false
     }
     return jit
 }
